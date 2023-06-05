@@ -21,15 +21,17 @@ body {
 .buttons_container {
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     flex-direction: column;
     justify-content: left;
 }
 .eng_ru {
     text-align: right;
+    margin-right:13rem;
     justify-content: center;
 }
 .mockup {
-    max-width: 100%;
+    width: 150%;
     justify-content: center;
 }
 
@@ -48,6 +50,7 @@ body {
     flex-direction: column;
     align-items: left;
 
+    margin-top:-90px;
     margin-left:16px;
     margin-right:16px;
 }
@@ -164,13 +167,14 @@ h1 {
     column-gap: 1rem;
     row-gap: 1rem;
     background-color: #CBECFF;
-    /*justify-content: center;*/
+    
+    justify-content: center;
 
     margin-top: -30px;
     padding-bottom: 40px;
 
-    padding-left:8px;
-    padding-right:8px;
+    padding-left:16px;
+    padding-right:16px;
 }
 
 .item_box {
@@ -178,27 +182,29 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column;
 
-    justify-self: center;
 
-    width:85%;
+
+
     /*width:9rem;*/
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     padding: 1rem;
+
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 10px #29374e28;
-    height:auto;
+   
 }
 
 .item_text {
     order:2;
-    width:auto%;
+    width:100%;
 }
 
 .image {
+
     order:1;
-    width: 1rem;
+    width: 3rem;
 }
 
 .object_mini {
