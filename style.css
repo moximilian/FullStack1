@@ -1,10 +1,12 @@
+
 body {
+    width:100%;
     font-family: 'Inter';
     color: #29374E;
     font-style: normal;
     font-weight: 500;
     font-size: 16pt;
-
+    margin:0;
     
 
 
@@ -20,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #CBECFF;
-    width:100hv;
+    width:100%;
 
 }
 .mockup {
