@@ -49,6 +49,8 @@ body {
 h1 {
     letter-spacing: 0.006em;
     font-weight: 700;
+    font-family: 'Inter';
+    /*font-style: normal*/;
     font-size: 64px;
     line-height: 130%;
 
@@ -65,22 +67,25 @@ h1 {
 .about_info {
     text-align: left;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 22px;
     line-height: 130%;
 }
 
 .btn_order_demo {
-    margin-top: 2rem;
+    font-family: 'Inter';
+    margin-top: 38px;
     background-color: #0962E8;
     text-align: center;
     color: white;
+
     font-weight: 500;
     font-size: 18px;
-    border-radius: 0.5rem;
+
+    border-radius: 8px;
     border: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 12rem;
+    width: 199px;
 
 }
 
@@ -102,10 +107,12 @@ h1 {
 
 .eng_ru {
     text-align: right;
+    
 }
 
 .btn_ru {
     margin-top: 1rem;
+    font-family: 'Inter';
     background-color: white;
     text-align: center;
     color: #0962E8;
@@ -130,6 +137,7 @@ h1 {
 }
 
 .btn_en {
+    font-family: 'Inter';
     margin-top: 1rem;
     margin-right: 2.5rem;
     background-color: #CBECFF;
@@ -149,32 +157,41 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 1rem;
+    gap: 20px;
     justify-content: center;
-    margin-top: -60px;
+    margin-top: -74px;
 }
 
 .item_box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 1.5rem;
+    gap:10px;
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
-    width: 13rem;
-    padding: 1rem;
+    width: 241px;
+
+    
+
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 10px #29374e28;
 }
 
 .item_text {
-    width: 9.5rem;
+    
+    width:161px;
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 30px;
 }
 
 .image {
-    height: 2rem;
+    padding-top:15px;
+    padding-right:5px;
+    height: 34.17px;
+    width: 34.17px;
 }
 
 .object_mini {
@@ -193,6 +210,8 @@ h1 {
     margin-right: 15rem;
     margin-top: 7rem;
     font-size: 38px;
+    font-style: medium;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -210,15 +229,15 @@ h1 {
 
 }
 
-.object_product_1 {
-    width: 15rem;
-    filter: drop-shadow(0 0 10px #29374e10);
-    border-radius: 1.5rem;
+.crop_image{
+    /* overflow: hidden;
+    margin:0; */
 }
 
-.object_product_2 {
+.object_product {
     width: 15rem;
     filter: drop-shadow(0 0 10px #29374e10);
+    margin-bottom:-8px;
     border-radius: 1.5rem;
 }
 
@@ -238,6 +257,7 @@ h1 {
 }
 
 .label_bold {
+    color:black;
     text-align: left;
     margin-left: 1rem;
     padding-top: 1rem;
@@ -247,6 +267,7 @@ h1 {
 }
 
 .texting {
+    color:black;
     font-size: 14px;
     padding: 1rem;
     width: 11rem;
@@ -259,6 +280,7 @@ h1 {
     flex-direction: row;
     gap: 1rem;
     justify-content: center;
+    margin-bottom:100px;
 }
 
 .banking_left {
@@ -266,7 +288,7 @@ h1 {
 }
 
 .banking_label {
-    font-weight: 520;
+    font-weight: 500;
     font-size: 38px;
     line-height: 130%;
 
@@ -281,7 +303,12 @@ h1 {
 }
 
 .bank_text {
-    padding-top: 1.5rem;
+    color:#1E2837;
+    font-size: 14px;
+    line-height:19.6px ;
+    font-family: 'Inter';
+    font-weight: 500;
+    padding-top: 21px;
     width: 30rem;
 }
 
@@ -294,8 +321,9 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 15rem;
-    height: 7.5rem;
+    gap:13px;
+    width: 231px;
+    height: 140px;
 }
 
 .bank_item_text {
